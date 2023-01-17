@@ -1,8 +1,8 @@
 body{
 	font-family: 'Roboto', sans-serif;
-	/*background-image: url(img/code-institute.jpg);
+	/* background-image: url(img/code-institute.jpg);
  	background-size: cover;
- 	color: #ffffff;*/
+ 	color: #ffffff; */
  	background-color: #eee;
 }
 
@@ -43,9 +43,11 @@ div{
 	display: flex;
 	flex-flow:column;
 }
-.card_head{
+
+.card_head {
 	flex:0;
 }
+
 .card_para{
 	flex:1 0 auto;
 }
@@ -104,8 +106,8 @@ ul{
 	flex-flow: row;
 	/*flex-flow: row-reverse;*/
 	/*justify-content:flex-end;*/
-	/*justify-content:space-around;*/
-	/*align-items:flex-start;*/
+	/* justify-content:space-around; */
+	/* align-items:flex-start; */
 	align-items:baseline;
 	border-radius: 10px;
 	list-style-type: none; /*Remove Bullets*/
